@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Automation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance SVIT</h1>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" onchange="recommendClass()">
+        
+        <label for="class">Class:</label>
+        <select id="class" onchange="displayRollNumbers()">
+            <!-- Classes will be populated dynamically -->
+        </select>
+        
+        <label for="faculty">Faculty Name:</label>
+        <input type="text" id="faculty" value="Arshad M. Patel">
+        
+        <label for="period">Periods (e.g., 1st, 2nd):</label>
+        <input type="text" id="period">
+        
+        <label for="topics">Topics Covered:</label>
+        <textarea id="topics"></textarea>
+        
+        <h3>Mark Attendance:</h3>
+        <div class="checkbox-container" id="checkbox-container">
+            <!-- Checkboxes will be added here dynamically -->
+        </div>
+        
+        <button onclick="generateAttendance()">Submit</button>
+        
+        <h3>Formatted Attendance:</h3>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
