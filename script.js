@@ -2,7 +2,7 @@
 // Class roll number arrays
 const classRollNumbers = {
     "III AIML - A": Array.from({ length: 60 }, (_, i) => (i + 1).toString()).concat(["LE 1", "LE 2", "LE 3", "LE 4", "LE 5", "LE 6", "LE 7", "LE 8"]),
-    "III AIML - B": Array.from({ length: 39 }, (_, i) => (i + 61).toString()).concat(["A0", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "LE 1", "LE 2", "LE 3", "LE 4", "LE 5"]),
+    "III AIML - B": Array.from({ length: 39 }, (_, i) => (i + 61).toString()).concat(["A0", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "LE 9", "LE 10", "LE 11", "LE 12", "LE 13", "LE 14", "LE 15", "LE 16" ]),
     "III AI DS": Array.from({ length: 53 }, (_, i) => (i + 1).toString()).concat(["LE 1", "LE 2", "LE 3", "LE 4", "LE 5"]),
     "III CS": Array.from({ length: 51 }, (_, i) => (i + 1).toString()).concat(["LE 1", "LE 2", "LE 3", "LE 4", "LE 5", "LE 6"]),
     "III CSE": Array.from({ length: 60 }, (_, i) => (i + 1).toString()).concat(["LE 1", "LE 2", "LE 3", "LE 4", "LE 5", "LE 6", "LE 7", "LE 8", "LE 9"])
